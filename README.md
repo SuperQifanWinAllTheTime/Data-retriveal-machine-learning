@@ -46,7 +46,7 @@ Str3,Y ,1.3,0.2,C1 <br />
 Str1,N,1.5,0.2,C1 <br />
 Str4,Y ,1.4,0.2,C3<br />
 
-#weka result as following:<br />
+# weka result as following:<br />
 === Stratified cross-validation ===
 === Summary ===
 
@@ -76,5 +76,9 @@ Weighted Avg.    0.484    0.167    0.528      0.484    0.492      0.312    0.736
   305  387  431  424 |    c = neutral
   119  120  234  633 |    d = objective
 
-for more ducumentation about weka, links are below:
+
+<img width="1440" alt="1" src="https://user-images.githubusercontent.com/15969187/41058723-881b7c94-6998-11e8-90a8-dd2a7a0ae4e7.png">
+
+
+## for more ducumentation about weka, links are below:
 https://www.cs.waikato.ac.nz/ml/weka/documentation.html
