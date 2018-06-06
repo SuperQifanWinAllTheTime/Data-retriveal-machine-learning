@@ -82,3 +82,8 @@ Weighted Avg.    0.484    0.167    0.528      0.484    0.492      0.312    0.736
 
 ## for more ducumentation about weka, links are below:
 https://www.cs.waikato.ac.nz/ml/weka/documentation.html
+
+# Program feature
+Tain a classifier using the bag-of-words(BOW) representation. This means to use words for the messagaes as features in the arff file. I eliminate stop wirds,punctuation, etc in order to reduce the dimension of vector space.
+Add more features and train more classifiers, in order to try improve the classification results. For example , identify emoji sticker and neatural language process such as words" not , however , but etc."
+
