@@ -46,6 +46,35 @@ Str3,Y ,1.3,0.2,C1 <br />
 Str1,N,1.5,0.2,C1 <br />
 Str4,Y ,1.4,0.2,C3<br />
 
-#weka result as following:
+#weka result as following:<br />
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3501               48.4232 %
+Incorrectly Classified Instances      3729               51.5768 %
+Kappa statistic                          0.2955
+Mean absolute error                      0.2747
+Root mean squared error                  0.4356
+Relative absolute error                 79.325  %
+Root relative squared error            104.691  %
+Total Number of Instances             7230     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.517    0.158    0.732      0.517    0.606      0.383    0.764     0.745     positive
+                 0.572    0.193    0.392      0.572    0.465      0.330    0.769     0.445     negative
+                 0.279    0.164    0.316      0.279    0.296      0.120    0.611     0.289     neutral
+                 0.572    0.168    0.381      0.572    0.458      0.346    0.789     0.418     objective
+Weighted Avg.    0.484    0.167    0.528      0.484    0.492      0.312    0.736     0.544     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1698  639  498  449 |    a = positive
+  199  739  201  154 |    b = negative
+  305  387  431  424 |    c = neutral
+  119  120  234  633 |    d = objective
+
 for more ducumentation about weka, links are below:
 https://www.cs.waikato.ac.nz/ml/weka/documentation.html
